@@ -1,6 +1,6 @@
 <?php
 
-function solve_recaptcha_v2($api_key, $site_key, $page_url, $min_score) {
+function bypass($api_key, $site_key, $page_url, $min_score) {
     $endpoint = 'https://www.2captcha.com/in.php';
     $response_url = 'https://www.2captcha.com/res.php';
 
@@ -60,7 +60,7 @@ $site_key = '6LcJDCwUAAAAAPZsx3c7deGx7REdi5U3eNERQ_0j';
 $page_url = 'https://servicosonline.cpfl.com.br/agencia-webapp';
 $min_score = 0.5;
 
-$response_data = solve_recaptcha_v2($api_key, $site_key, $page_url, $min_score);
+$response_data = bypass($api_key, $site_key, $page_url, $min_score);
 if ($response_data) {
     // Recaptcha resolvido com sucesso
     echo 'Resultado: ';
