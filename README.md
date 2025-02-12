@@ -12,12 +12,16 @@ Este projeto é uma ferramenta para resolver captchas de forma automatizada em p
 1. **Clone o repositório:**
    ```sh
    git clone https://github.com/Pugn0/multCaptcha-Python.git
-   cd captcha-solver
+   ```
+   ```sh
+   cd multCaptcha-Python
    ```
 
 2. **Crie e ative um ambiente virtual (opcional, mas recomendado):**
    ```sh
    python -m venv venv
+   ```
+   ```sh
    source venv/bin/activate  # No Windows: venv\Scripts\activate
    ```
 
@@ -30,7 +34,7 @@ Este projeto é uma ferramenta para resolver captchas de forma automatizada em p
 
 1. **Execute o script principal:**
    ```sh
-   python solver.py
+   python multCaptcha.py
    ```
 
 2. **Escolha o tipo de captcha que deseja resolver.**
