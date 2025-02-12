@@ -11,7 +11,7 @@ Este projeto é uma ferramenta para resolver captchas de forma automatizada em p
 
 1. **Clone o repositório:**
    ```sh
-   git clone https://github.com/seu-repositorio/captcha-solver.git
+   git clone https://github.com/Pugn0/multCaptcha-Python.git
    cd captcha-solver
    ```
 
